@@ -1,31 +1,56 @@
 html {
-    background-color: rgb(255, 149, 239);
+    background-color: rgb(35, 35, 35);
 }
 div.title{
-    color: blueviolet;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50pt;
+    color: rgb(213, 213, 213);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55pt;
     font-weight: bold;
 }
+div.fenge{
+    color: rgb(213, 213, 213);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30pt;
+}
 div.title-2{
-    color: rgb(37, 109, 209);
+    color: rgb(60, 141, 255);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40pt;
+    font-size: 33pt;
+}
+div.kong{
+    color: rgb(35, 35, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
 }
 div.intro{
     color: #74a7ff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25pt;
+    font-size: 20pt;
+}
+div.kong-1{
+    color: rgb(35, 35, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7pt; 
 }
 div.text1{
     color: rgb(110, 110, 110);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15pt;
 }
+div.kong-2{
+    color: rgb(35, 35, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7pt;
+}
 div.text2{
     color: rgb(110, 110, 110);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15pt;
+}
+div.kong-3{
+    color: rgb(35, 35, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7pt;
 }
 div.text3{
     color: rgb(110, 110, 110);
