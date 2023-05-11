@@ -1,15 +1,19 @@
 html {
     background-color: rgb(35, 35, 35);
 }
+@font-face {
+    font-family:'Block-Cut';
+    src: url('');
+}
 div.title{
     color: rgb(213, 213, 213);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 55pt;
+    font-family:Block;
+    font-size: 40pt;
     font-weight: bold;
 }
 div.fenge{
     color: rgb(213, 213, 213);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'GillSans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30pt;
 }
 div.title-2{
