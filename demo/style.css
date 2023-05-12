@@ -3,8 +3,6 @@ body{
 }
 
 div.muen{
-    font-size: small;
+    font-size: 30pt;
     color: aliceblue;
-    align-items: center;
-    vertical-align: middle;
 }
