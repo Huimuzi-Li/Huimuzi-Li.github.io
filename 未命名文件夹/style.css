@@ -1,0 +1,109 @@
+body{
+    background-color: lightcoral;
+    font-size: 36px;
+    margin: 10px;
+}
+
+div{
+   box-sizing: border-box;
+}
+
+div.row {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+div.col {
+    outline: 2px solid cornflowerblue;
+    height: 1000px;
+    padding: 20px;
+}
+
+div.width100{
+    width: 100%;
+}
+
+div.width80{
+    width: 80%;
+}
+
+div.width75{
+    width: 75%;
+}
+
+div.width60{
+    width: 60%;
+}
+
+div.width33{
+    width: 33.333%;
+}
+
+div.width20{
+    width: 20%;
+}
+
+div.width66{
+    width: 66.666%;
+}
+
+div.textred{
+    color: red;
+}
+
+div.textwhite{
+    color: white;
+}
+
+div.width50{
+    width: 50%;
+}
+
+div.width25{
+    width: 25%;
+}
+
+div.menu{
+    background-color: cornflowerblue;
+    position: fixed;
+    top: 300px;
+    left: 50%;
+    width: 500px;
+    text-align: center;
+    transition: 2s;
+    transform:translateX(-50%);
+}
+
+div.happycat img{
+    padding: 25%;
+    animation: circle 2s infinite alternate linear;
+}
+
+@keyframes circle {
+    0% {
+        border-radius: 0%;
+        width: 0%;
+    }
+
+    100% {
+        border-radius: 100%;
+        width: 100%;
+    }
+}
+
+
+div.menu:hover{
+    background-color: indigo;
+    border-radius: 50px;
+    transition: 2s;
+    height: 400px;
+
+}
+
+div.intro{
+    margin-top: 50px;
+}
+
+div.middle{
+    margin-top: 400px;
+}

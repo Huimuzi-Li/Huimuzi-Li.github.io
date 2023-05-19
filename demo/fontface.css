@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'BBB';
+    src: url('BBB/bbb_simulator_black.woff') format('woff'),
+         url('BBB/bbb_simulator_black.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'BBB2';
+    src: url('BBB2/bbb_simulator_sunset.woff') format('woff');
+}
+@font-face {
+    font-family:'BBB3' ;
+    src: url('BBB3/bbb_simulator_shade.woff') format('woff');
+}
+@font-face {
+    font-family:'aldo' ;
+    src: url('aldo/aldotheapache.woff')format('woff');
+}
+
+div.title{
+    font-family: 'BBB';
+    font-size: 30pt;
+    color:snow;
+}
+div.title2{
+    font-family: 'BBB3';
+    font-size: 20pt;
+    color:snow;
+}
+div.intro{
+    font-family: 'BBB';
+    font-size: 13pt;
+    line-height: 25px;
+    color:snow;
+}
+div.text1-t{
+    font-family: 'aldo';
+    font-size: 18pt;
+    color:snow;
+}
+div.text1{
+    font-family: 'aldo';
+    font-size: 13pt;
+    line-height:25px;
+    color:snow;
+}
+div.text2-t{
+    font-family: 'aldo';
+    font-size: 18pt;
+    color:snow;
+}
+div.text2{
+    font-family: 'aldo';
+    font-size: 13pt;
+    line-height:25px;
+    color:snow;
+}
