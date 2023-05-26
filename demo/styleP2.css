@@ -1,35 +1,43 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-image: url(p3.jpg);
     margin: 25px 50px;;
 }
 
-div.block{
-    background-color: rgb(0, 0, 0);
-    width: 50%;    
+div {
+    box-sizing: border-box;
 }
-.gallery{
+div.menu{
+    font-size: 30pt;
+    font-family: 'BBB';
+    color: aliceblue;
+    align-items: center;
+    height: calc(50vh - 40px);
+    width: calc(33.33% - 20px);
+    padding: 150px;
+    margin: 10px;
     border: 1px solid snow;
-    padding: 1rem;
+    border-radius: 1px;
+    font-size: 25pt;
     display: flex;
-    overflow-x: 0 50%;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
 }
 
-li{
-    scroll-snap-align: center;
-    display: inline-block;
-    height: 83vh;
-    border-radius: 3px;
-    font-size: 0;
-    margin-right: 3rem;
-}
+div.hpop {
+    width: 800px;
+    height: 800px;
+    background-color: rgb(57, 57, 57);
+    position:fixed;
+    top: 100px;
+    left:350px;
+    cursor: pointer;
+    opacity: 0;
+    color: snow;
+  }
+  
+  div.hpop.show {
+    opacity: 1;
+  }
 
-.container{
-    scroll-snap-type: x mandatory;
-    scroll-padding: 50%;
-}
-
-.child{
-    scroll-snap-align: center;
+div.row{
+    display: flex;
+    flex-wrap: wrap;
 }

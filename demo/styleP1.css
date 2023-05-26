@@ -1,0 +1,104 @@
+body{
+    background: black;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+div.background {
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+div.row {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+div.blur img {
+  filter: blur(3px);
+  transition: 0.5s;
+}
+
+div.blur img:hover {
+  filter: blur(0px);
+  transition: 1s;
+}
+
+
+
+div.welcome {
+  width:500px;
+  height: 500px;
+  background-color: black;
+  position:fixed;
+  top: 150px;
+  left:450px;
+  cursor: pointer;
+  opacity: 0;
+  color: snow;
+}
+
+div.welcome.show {
+  opacity: 1;
+}
+
+div.w2 {
+  width:500px;
+  height: 500px;
+  background-color: black;
+  position:fixed;
+  top: 150px;
+  left:450px;
+  cursor: pointer;
+  opacity: 0;
+  color: snow;
+}
+
+div.w2.show {
+  opacity: 1;
+}
+
+div.width25 {
+    width: 25%;
+}
+
+div.width75 {
+    width: 75%;
+}
+
+
+div.star {
+    width: 33.33%;
+    animation: shimmer 1.0s infinite;
+}
+div.star2 {
+    width: 33.33%;
+    animation: shimmer 1.5s infinite;
+    position: bottom right;
+}
+div.star3 {
+    width: 33.33%;
+    animation: shimmer 0.5s infinite;
+    position: center;
+}
+
+
+  
+  @keyframes shimmer {
+    0% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
