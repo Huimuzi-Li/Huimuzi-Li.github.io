@@ -47,9 +47,34 @@ div.welcome {
 
 div.welcome.show {
   opacity: 1;
+  z-index: 100;
 }
 
-div.w2 {
+div.aimg{
+  width: 180px;
+  height: 180px;
+  padding: 10px;
+  margin: 10px;
+  position: sticky;
+
+}
+
+div.Aquarius{
+  font-family: 'aldo';
+  font-size: 30pt;
+}
+
+div.adate{
+  font-family: 'aldo';
+  font-size: 25pt;
+}
+
+div.a{
+  font-family: 'aldo';
+  font-size: 20pt;
+}
+
+div.popup {
   width:500px;
   height: 500px;
   background-color: black;
@@ -61,8 +86,32 @@ div.w2 {
   color: snow;
 }
 
-div.w2.show {
+div.popup.show {
   opacity: 1;
+  z-index: 100;
+}
+
+div.pimg{
+  width: 180px;
+  height: 180px;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+div.Pisces{
+  font-family: 'aldo';
+  font-size: 30pt;
+}
+
+div.pdate{
+  font-family: 'aldo';
+  font-size: 25pt;
+}
+
+div.p{
+  font-family: 'aldo';
+  font-size: 20pt;
 }
 
 div.width25 {

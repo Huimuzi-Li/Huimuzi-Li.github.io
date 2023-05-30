@@ -22,21 +22,41 @@ div.menu{
 }
 
 div.hpop {
-    width: 800px;
-    height: 800px;
-    background-color: rgb(57, 57, 57);
+    width: 700px;
+    height: 700px;
+    background-color: rgb(24, 24, 24);
     position:fixed;
-    top: 100px;
+    top: 50px;
     left:350px;
     cursor: pointer;
     opacity: 0;
+  }
+
+  div.htext{
+    padding: 25px;
+    margin: 20px;
+    font-size: 20pt;
     color: snow;
+    font-family: 'BBB';
   }
   
   div.hpop.show {
     opacity: 1;
   }
 
+  div.atext{
+    padding: 25px;
+    margin: 20px;
+    font-size: 20pt;
+    color: snow;
+    font-family: 'BBB';
+  }
+  
+  div.apop.show {
+    opacity: 1;
+  }
+
+  
 div.row{
     display: flex;
     flex-wrap: wrap;
