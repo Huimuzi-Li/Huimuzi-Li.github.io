@@ -1,153 +1,161 @@
 body{
-    background: black;
-    margin: 0;
+  background: black;
+  margin: 0;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 div.background {
-    position: fixed;
-    top:0;
-    left:0;
-    height: 100vh;
-    width: 100vw;
-    z-index: -1;
+  position: fixed;
+  top:0;
+  left:0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
 }
 
 div.row {
-    display: flex;
-    flex-wrap:wrap;
+  display: flex;
+  flex-wrap:wrap;
 }
 
 div.blur img {
-  filter: blur(3px);
-  transition: 0.5s;
+filter: blur(3px);
+transition: 0.5s;
 }
 
 div.blur img:hover {
-  filter: blur(0px);
-  transition: 1s;
+filter: blur(0px);
+transition: 1s;
 }
 
 
 
 div.welcome {
-  width:500px;
-  height: 500px;
-  background-color: black;
-  position:fixed;
-  top: 150px;
-  left:450px;
-  cursor: pointer;
-  opacity: 0;
-  color: snow;
+width:500px;
+height: 500px;
+background-color: black;
+position:fixed;
+top: 150px;
+left:450px;
+cursor: pointer;
+/* opacity: 0; */
+display: none;
+color: snow;
 }
 
 div.welcome.show {
-  opacity: 1;
-  z-index: 100;
+/* opacity: 1; */
+display: block;
+z-index: 100;
 }
-
+.fiex{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 div.aimg{
-  width: 180px;
-  height: 180px;
-  padding: 10px;
-  margin: 10px;
-  position: sticky;
+width: 180px;
+height: 180px;
+padding: 10px;
+margin: 10px;
+position: sticky;
 
 }
 
 div.Aquarius{
-  font-family: 'aldo';
-  font-size: 30pt;
+font-family: 'aldo';
+font-size: 30pt;
 }
 
 div.adate{
-  font-family: 'aldo';
-  font-size: 25pt;
+font-family: 'aldo';
+font-size: 25pt;
 }
 
 div.a{
-  font-family: 'aldo';
-  font-size: 20pt;
+font-family: 'aldo';
+font-size: 20pt;
 }
 
 div.popup {
-  width:500px;
-  height: 500px;
-  background-color: black;
-  position:fixed;
-  top: 150px;
-  left:450px;
-  cursor: pointer;
-  opacity: 0;
-  color: snow;
+width:500px;
+height: 500px;
+background-color: black;
+position:fixed;
+top: 150px;
+left:450px;
+cursor: pointer;
+/* opacity: 0; */
+display: none;
+color: snow;
 }
 
 div.popup.show {
-  opacity: 1;
-  z-index: 100;
+opacity: 1;
+display: block;
+z-index: 100;
 }
 
 div.pimg{
-  width: 180px;
-  height: 180px;
-  padding: 10px;
-  margin: 10px;
+width: 180px;
+height: 180px;
+padding: 10px;
+margin: 10px;
 
 }
 
 div.Pisces{
-  font-family: 'aldo';
-  font-size: 30pt;
+font-family: 'aldo';
+font-size: 30pt;
 }
 
 div.pdate{
-  font-family: 'aldo';
-  font-size: 25pt;
+font-family: 'aldo';
+font-size: 25pt;
 }
 
 div.p{
-  font-family: 'aldo';
-  font-size: 20pt;
+font-family: 'aldo';
+font-size: 20pt;
 }
 
 div.width25 {
-    width: 25%;
+  width: 25%;
 }
 
 div.width75 {
-    width: 75%;
+  width: 75%;
 }
 
 
 div.star {
-    width: 33.33%;
-    animation: shimmer 1.0s infinite;
+  width: 33.33%;
+  animation: shimmer 1.0s infinite;
 }
 div.star2 {
-    width: 33.33%;
-    animation: shimmer 1.5s infinite;
-    position: bottom right;
+  width: 33.33%;
+  animation: shimmer 1.5s infinite;
+  position: bottom right;
 }
 div.star3 {
-    width: 33.33%;
-    animation: shimmer 0.5s infinite;
-    position: center;
+  width: 33.33%;
+  animation: shimmer 0.5s infinite;
+  position: center;
 }
 
 
-  
-  @keyframes shimmer {
-    0% {
-      opacity: 0.2;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0.2;
-    }
+
+@keyframes shimmer {
+  0% {
+    opacity: 0.2;
   }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}

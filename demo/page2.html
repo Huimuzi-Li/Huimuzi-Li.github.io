@@ -1,84 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styleP2.css">
     <link rel="stylesheet" href="fontface.css">
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <script src="interaction.js"></script>
-    <script>
-        $(document).ready(function() {
-            $("div.History").click(function () {
-    $("div.hpop").addClass("show");
-    $("div.hpop").click(function () {
-      $(this).removeClass("show");
-    });
-    });
-            $("div.Astrolog").click(function () {
-    $("div.apop").addClass("show");
-    $("div.apop").click(function () {
-      $(this).removeClass("show");
-    });
-    });
-        });
-      </script>
+    <link rel="stylesheet" href="styleP2.css">
+    <script src="jquery.js"></script>
+
+
 </head>
-<body>    
+<script>
+
+    $(document).ready(function () {
+        $("div.History").click(function () {
+            $("div.hpop").addClass("show");
+            $("div.hpop").click(function () {
+                $(this).removeClass("show");
+            });
+        });
+        $("div.Astrolog").click(function () {
+            $("div.apop").addClass("show");
+            $("div.apop").click(function () {
+                $(this).removeClass("show");
+            });
+        });
+        $("div.Story").click(function () {
+            $("div.spop").addClass("show");
+            $("div.spop").click(function () {
+                $(this).removeClass("show");
+            });
+        });
+    });
+</script>
+
+<body>
     <div class="row">
-    <div class="menu">
-        <div class="History">
-        History 
+        <div class="menu">
+            <div class="History">
+                History
+            </div>
         </div>
-    </div>
-    <div class="menu">
-        <div class="Astrolog">
-        Astrolog
+        <div class="menu">
+            <div class="Astrolog">
+                Astrolog
+            </div>
         </div>
-    </div>
-    <div class="menu">
-        <div class="Story">
-        Story
+        <div class="menu">
+            <div class="Story">
+                Story
+            </div>
         </div>
-    </div>    
         <div class="pop">
             <div class="hpop">
                 <div class="htext">
-                In the 2nd century AD, 
-                ancient Greek astronomers synthesised t
-                he astronomical achievements of the time and 
-                compiled 48 constellations. The stars within 
-                the constellations were connected by lines, 
-                imagined as animals or characters and given 
-                names in conjunction with mythological stories,
-                which is how the constellations came to be.
-                </div> 
-            </div>    
+                    In the 2nd century AD,
+                    ancient Greek astronomers synthesised t
+                    he astronomical achievements of the time and
+                    compiled 48 constellations. The stars within
+                    the constellations were connected by lines,
+                    imagined as animals or characters and given
+                    names in conjunction with mythological stories,
+                    which is how the constellations came to be.
+                </div>
+            </div>
             <div class="apop">
                 <div class="atext">
-                    Astrology believes that the celestial bodies, 
-                    especially the planets and constellations, 
-                    foretell changes in the world in some causal or 
-                    non-contingent way. Astrologers believe that the 
-                    movement of certain celestial bodies and their 
-                    combinations are specifically linked to the 
+                    Astrology believes that the celestial bodies,
+                    especially the planets and constellations,
+                    foretell changes in the world in some causal or
+                    non-contingent way. Astrologers believe that the
+                    movement of certain celestial bodies and their
+                    combinations are specifically linked to the
                     occurrence and demise of the four elements of fire,
                     air, water and earth. The complexity of this c
-                    onnection is a reflection of the ever-changing 
+                    onnection is a reflection of the ever-changing
                     nature of the human world.
                 </div>
             </div>
-                
-        </div>    
-       
-    </div>
+            <div class="spop">
+                <div class="atext">
+                    There is an old Chinese legend that the goddess Weaving Girl and the mortal Cowherd fell in love. It
+                    was not allowed for a man and a god to fall in love and the Queen Mother was so angry that she
+                    pulled off her golden hairpin and cut a great river, the Milky Way, in the sky, separating them from
+                    each other.
+                    The Cowherd, who had lost his lover, cried every day. On the seventh day of the seventh month,
+                    magpies used their bodies to build a bridge so that they could meet in the Milky Way. Later, they
+                    became stars in the sky. You can see one bright star next to four smaller stars that look like
+                    weaving shuttles: that is the star Weaving Girl (Alpha Lyrae). In the south-east of the Milky Way,
+                    there is a bright star with a smaller star on each side: Cowherd (Alpha Cephei)
+                </div>
+            </div>
+        </div>
 
-    
-    
-    
-   </div>
-    
+    </div>
+    <div class="danmu_container_wrap">
+        <div class="lines"></div>
+        <div class="danmu_container"></div>
+    </div>
+    <button style="display: none;" id="control">暂停</button>
+    <script src="main.js"></script>
 
 </body>
+
+</html>
